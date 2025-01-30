@@ -4,6 +4,7 @@ import streamlit as st
 from PIL import Image
 from utils.predict import load_model, predict_image
 from pathlib import Path
+import keras
 
 # Load the trained model (from assets folder)
 model_path=Path("artifacts/model/model.keras")
